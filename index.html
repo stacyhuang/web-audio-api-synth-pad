@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="synth-pad">
+      <h2>Synth Pad</h2>
+      <section id="pads">
+        <div id="pad1" data-sound="sound/drum.wav"><span>Drum</span></div>
+        <div id="pad2" data-sound="sound/woodblock.wav"><span>Wood Block</span></div>
+        <div id="pad3" data-sound="sound/shaker.wav"><span>Shaker</span></div>
+        <div id="pad4" data-sound="sound/tambourine.wav"><span>Tambourine</span></div>
+      </section>
+
+      <div class="control-pad" data-pad="pad1">
+        <h3>Drum</h3>
+        <button type="button" class="loop-button" data-toggle-text="End Loop" value="false">Loop</button>
+        <label for="volume1">Volume</label>
+        <input type="range" min="0" max="5" step="0.01" value="1" data-control="gain" name="volume1" />
+        <label for="playback-rate1">Playback rate</label>
+        <input type="range" min="0.25" max="3" step="0.05" value="1" data-control="playback-rate" name="playback-rate1" />
+      </div>
+
+      <div class="control-pad" data-pad="pad2">
+        <h3>Wood Block</h3>
+        <button type="button" class="loop-button" data-toggle-text="End Loop" value="false">Loop</button>
+        <label for="volume2">Volume</label>
+        <input type="range" min="0" max="5" step="0.01" value="1" data-control="gain" name="volume2" />
+        <label for="playback-rate2">Playback rate</label>
+        <input type="range" min="0.25" max="3" step="0.05" value="1" data-control="playback-rate" name="playback-rate2" />
+      </div>
+
+      <div class="control-pad" data-pad="pad3">
+        <h3>Shaker</h3>
+        <button type="button" class="loop-button" data-toggle-text="End Loop" value="false">Loop</button>
+        <label for="volume3">Volume</label>
+        <input type="range" min="0" max="5" step="0.01" value="1" data-control="gain" name="volume3" />
+        <label for="playback-rate3">Playback rate</label>
+        <input type="range" min="0.25" max="3" step="0.05" value="1" data-control="playback-rate" name="playback-rate3" />
+      </div>
+
+      <div class="control-pad" data-pad="pad4">
+        <h3>Tambourine</h3>
+        <button type="button" class="loop-button" data-toggle-text="End Loop" value="false">Loop</button>
+        <label for="volume4">Volume</label>
+        <input type="range" min="0" max="5" step="0.01" value="1" data-control="gain" name="volume4" />
+        <label for="playback-rate4">Playback rate</label>
+        <input type="range" min="0.25" max="3" step="0.05" value="1" data-control="playback-rate" name="playback-rate4" />
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

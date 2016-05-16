@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+}
+
+#pads div {
+  width: 10em;
+  height: 10em;
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.098039) -6px -6px 8px 2px inset;
+  position: relative;
+}
+
+#pads span {
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  top: 4.5em;
+  font-weight: bold;
+}
+
+.control-pad {
+  border: solid 2px #EBEBEB;
+  padding: 10px;
+  width: 20%;
+  display: inline-block;
+}
+
+#pad1 {
+  background-color: #F6C2C2;
+}
+
+#pad2 {
+  background-color: #F9FBBA;
+}
+
+#pad3 {
+  background-color: #E2F2D5;
+}
+
+#pad4 {
+  background-color: #D4EDF4;
+}
+
+.control-pad button {
+  width: 100%;
+}
