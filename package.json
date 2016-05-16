@@ -1,0 +1,17 @@
+{
+  "name": "web-audio-api-synth-pad",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stacyhuang/web-audio-api-synth-pad.git"
+  },
+  "author": "Stacy Huang",
+  "license": "ISC",
+  "homepage": "https://github.com/stacyhuang/web-audio-api-synth-pad#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
